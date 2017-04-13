@@ -12,7 +12,7 @@
   <artifactId>ms-gs-plugins</artifactId>
   <packaging>jar</packaging>
   <name>MapStory GeoServer Plugins</name>
-  <version>2.12-SNAPSHOT</version>
+  <version>${gs.version}</version>
 
   <licenses>
     <license>
@@ -135,8 +135,7 @@
   </build>
 
   <properties>
-    <gs.version>2.12-SNAPSHOT</gs.version>
-    <gt.version>18-SNAPSHOT</gt.version>
+    <gs.version>2.9.4</gs.version>
   </properties>
 
 </project>
