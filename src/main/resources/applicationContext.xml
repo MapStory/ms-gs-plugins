@@ -3,6 +3,10 @@
 
 <beans>
   <bean class="org.mapstory.geoserver.boundsupdater.BoundsUpdateTransactionListener">
-    <constructor-arg index="0" value="catalog"/>
+    <constructor-arg index="0" ref="catalog"/>
+  </bean>
+  <bean class="org.geoserver.platform.ModuleStatusImpl">
+    <constructor-arg index="0" value="gs-rest"/>
+    <constructor-arg index="1" value="MapStory Plugins"/>
   </bean>
 </beans>
